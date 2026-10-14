@@ -1,0 +1,659 @@
+Starting project at C:\Users\Buyani\Desktop\MAST5112APPS\christoffel-menu
+ ERROR  An unknown error occurred while installing React Native DevTools. Details:
+
+spawn EPERM
+Starting Metro Bundler
+
+Waiting on http://localhost:8082
+
+Logs for your project will appear below.
+Web Bundled 3215ms index.ts (497 modules)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  WARN  Image: style.resizeMode is deprecated. Please use props.resizeMode.
+Web Bundled 49ms index.ts (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  <global> (web\WebApp.tsx:3887)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  <global> (web\WebApp.tsx:3887)
+Web Bundled 73ms index.ts (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3894:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3894:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3881:31)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3881:31)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3882:31)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3882:31)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3881:31)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3881:31)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  <global> (web\WebApp.tsx:3901:16)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  <global> (web\WebApp.tsx:3901:16)
+Web Bundled 42ms index.ts (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3920:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3920:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+Web Bundled 48ms index.ts (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3885:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
+Web Bundled 45ms index.ts (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
+Web  WARN  Image: style.resizeMode is deprecated. Please use props.resizeMode.
+Web Bundled 83ms index.ts (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
+Web Bundled 43ms index.ts (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. Make sure to run `bundle exec pod install` first. Read more about autolinking: https://github.com/react-native-community/cli/blob/master/docs/autolinking.md
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
+Web  WARN  Image: style.resizeMode is deprecated. Please use props.resizeMode.
+Web  ERROR  Unexpected text node: /* ==================================================== CHRISTOFFEL FOOTER ==================================================== */. A text node cannot be a child of a <View>. 
+
+Code: WebApp.tsx
+[0m [90m 669 |[39m
+ [90m 670 |[39m       {[90m/* Scrollable website page */[39m}
+[31m[1m>[22m[39m[90m 671 |[39m       [33m<[39m[33mScrollView[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 672 |[39m         style[33m=[39m{styles[33m.[39mscrollView}
+ [90m 673 |[39m         contentContainerStyle[33m=[39m{styles[33m.[39mpageContent}
+ [90m 674 |[39m         showsVerticalScrollIndicator[33m=[39m{[36mtrue[39m}[0m
+Call Stack
+  WebAppContent (web\WebApp.tsx:671:7)
+  WebApp (web\WebApp.tsx:3887:9)
