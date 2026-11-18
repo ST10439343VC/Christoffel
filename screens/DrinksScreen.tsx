@@ -7,6 +7,7 @@ import {
   Image,
   TouchableOpacity,
   ScrollView,
+  ScrollViewInstance,
   ImageBackground,
   Dimensions,
 } from 'react-native';
@@ -49,7 +50,7 @@ export default function DrinksScreen({
 }) {
   const [cartVisible, setCartVisible] = useState(false);
 
-  const scrollRef = useRef<ScrollView>(null);
+  const scrollRef = useRef<ScrollViewInstance | null>(null);
 
   const drinks = menuItems.filter(
     item => item.course === 'Drink'

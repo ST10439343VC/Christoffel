@@ -7,6 +7,7 @@ import {
   Image,
   TouchableOpacity,
   ScrollView,
+  ScrollViewInstance,
   ImageBackground,
   Dimensions,
 } from 'react-native';
@@ -47,7 +48,7 @@ export default function MainsScreen({
 }) {
   const [cartVisible, setCartVisible] = useState(false);
 
-  const scrollRef = useRef<ScrollView>(null);
+  const scrollRef = useRef<ScrollViewInstance | null>(null);
 
   const mains = menuItems.filter(
     item => item.course === 'Main Course'

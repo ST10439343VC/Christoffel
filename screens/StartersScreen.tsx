@@ -7,6 +7,7 @@ import {
   Image,
   TouchableOpacity,
   ScrollView,
+  ScrollViewInstance,
   ImageBackground,
   Dimensions,
 } from 'react-native';
@@ -47,7 +48,7 @@ export default function StartersScreen({
 }) {
   const [cartVisible, setCartVisible] = useState(false);
 
-  const scrollRef = useRef<ScrollView>(null);
+  const scrollRef = useRef<ScrollViewInstance | null>(null);
 
   const starters = menuItems.filter(
     item => item.course === 'Starter'

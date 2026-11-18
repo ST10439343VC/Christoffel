@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
+  Platform,
   View,
   Text,
   StyleSheet,
@@ -9,8 +10,13 @@ import {
   Image,
   ImageBackground,
 } from 'react-native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import { SafeAreaView } from 'react-native-safe-area-context';
+import MapView, {
+  Marker,
+  Polyline,
+} from 'react-native-maps';
 import { WebView } from 'react-native-webview';
 import { menuData, MenuItem } from '../data/menuData';
 
@@ -692,7 +698,7 @@ export default function OrderTrackingScreen({
     useState(Date.now());
 
   const webViewRef =
-    useRef<WebView>(null);
+    useRef<WebView<{}> | null>(null);
 
   /*
   |--------------------------------------------------------------------------
@@ -746,6 +752,21 @@ export default function OrderTrackingScreen({
       selectedRoute,
       driverProgress
     );
+
+  const latitudes =
+    selectedRoute.map(point => point.latitude);
+  const longitudes =
+    selectedRoute.map(point => point.longitude);
+  const minLatitude = Math.min(...latitudes);
+  const maxLatitude = Math.max(...latitudes);
+  const minLongitude = Math.min(...longitudes);
+  const maxLongitude = Math.max(...longitudes);
+  const routeRegion = {
+    latitude: (minLatitude + maxLatitude) / 2,
+    longitude: (minLongitude + maxLongitude) / 2,
+    latitudeDelta: Math.max(maxLatitude - minLatitude, 0.01) * 1.5,
+    longitudeDelta: Math.max(maxLongitude - minLongitude, 0.01) * 1.5,
+  };
 
   /*
   |--------------------------------------------------------------------------
@@ -1199,20 +1220,88 @@ export default function OrderTrackingScreen({
           <View
             style={styles.mapContainer}
           >
-            <WebView
-              ref={webViewRef}
-              source={{
-                html: mapHtml,
-              }}
-              originWhitelist={[
-                '*',
-              ]}
-              javaScriptEnabled
-              domStorageEnabled
-              startInLoadingState
-              scrollEnabled={false}
-              style={styles.map}
-            />
+            {Platform.OS === 'web' ? (
+              <WebView<{}>
+                ref={webViewRef}
+                source={{
+                  html: mapHtml,
+                }}
+                originWhitelist={[
+                  '*',
+                ]}
+                javaScriptEnabled
+                domStorageEnabled
+                startInLoadingState
+                scrollEnabled={false}
+                style={styles.map}
+              />
+            ) : (
+              <MapView
+                key={order.id}
+                initialRegion={routeRegion}
+                style={styles.map}
+                loadingEnabled
+              >
+                <Polyline
+                  coordinates={selectedRoute}
+                  strokeColor="#8B7430"
+                  strokeWidth={4}
+                />
+                <Polyline
+                  coordinates={[
+                    ...selectedRoute.slice(
+                      0,
+                      Math.floor(
+                        driverProgress *
+                          (selectedRoute.length - 1)
+                      ) + 1
+                    ),
+                    driverCoordinate,
+                  ]}
+                  strokeColor="#D4AF37"
+                  strokeWidth={5}
+                />
+                <Marker
+                  coordinate={selectedRoute[0]}
+                  title="Christoffel Restaurant"
+                  description="Restaurant"
+                  pinColor="#D4AF37"
+                />
+                <Marker
+                  coordinate={driverCoordinate}
+                  title={selectedDriver.name}
+                  description={`${selectedDriver.vehicle} · ${selectedDriver.registration}`}
+                  anchor={{ x: 0.5, y: 0.5 }}
+                >
+                  <View
+                    style={{
+                      width: 46,
+                      height: 46,
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      borderRadius: 23,
+                      borderWidth: 2,
+                      borderColor: '#D4AF37',
+                      backgroundColor: '#171717',
+                    }}
+                  >
+                    <MaterialCommunityIcons
+                      name="car"
+                      size={26}
+                      color="#D4AF37"
+                    />
+                  </View>
+                </Marker>
+                <Marker
+                  coordinate={
+                    selectedRoute[selectedRoute.length - 1]
+                  }
+                  title="Delivery Location"
+                  description="Customer destination"
+                  pinColor="#8B7430"
+                />
+              </MapView>
+            )}
           </View>
 
           {/* MAP LEGEND */}
